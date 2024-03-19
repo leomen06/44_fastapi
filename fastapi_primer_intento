@@ -1,0 +1,39 @@
+1. ¿Cómo puedes agregar SQLAlchemy a tu aplicación? --> Rta: Ejecutando el comando "pip install sqlalchemy"
+
+2. ¿Cómo definimos el nombre de una tabla con SQLALchemy? --> Rta: Usando el atributo __tablename__
+
+3. ¿Cómo indicamos que un atributo es una columna en un modelo de SQLAlchemy? --> Rta: Usando la clase Column
+
+4. ¿Cuál es la sintaxis correcta para obtener todos los datos de una tabla con SQLALchemy? --> Rta: db.query(Model).all()
+
+5. ¿Cuál es la sintaxis correcta para filtrar datos de una tabla con SQLALchemy? --> Rta: db.query(Model).filter(condition)
+
+6. ¿Cuál de las siguientes es una ventaja de SQLModel? --> Rta: Te permite crear esquemas de pydantic y modelos de bases de datos sin duplicar código
+
+7. ¿Cuál es la sintaxis para añadir un middleware a tu aplicación? --> Rta: app.add_middleware(MyMiddleware)
+
+8. ¿Cuál es la sintaxis para incluir un router en tu aplicación? --> Rta: app.include_router(my_router)
+
+9. ¿Con cuál de los siguientes comandos puedes ejecutar tu aplicación con PM2? --> Rta: pm2 start "uvicorn main:app"
+
+10. ¿En qué framework está basado FastAPI? --> Rta: Pydantic --> ***********MAL***********
+
+11. ¿Cuál es el comando correcto para ejecutar una aplicación con FastAPI? --> Rta: uvicorn main:app
+
+12. ¿Cuál es la sintaxis para añadir un parámetro a una ruta? --> Rta: /movies/{id}
+
+13. ¿Qué método HTTP utilizarías si quisieras modificar información en tu API? --> Rta: PUT
+
+14. ¿De qué clase debe heredar un esquema de datos de Pydantic? --> Rta: BaseModel
+
+15. ¿Qué nombre debe tener la clase para realizar configuraciones en un esquema de Pydantic? --> Rta: Config
+
+16. ¿Cuál es la clase que nos sirve para validar parámetros query? --> Rta: Query
+
+17. Si tuvieras un esquema llamado Book, ¿cómo le indicarías a una ruta que debe devolver datos de este tipo? --> Rta: response_model = Book
+
+18. ¿Qué parámetro debes usar para indicar el código de estado que devolverá una ruta? -->Rta: status_code
+
+19. ¿Qué código de estado puedes usar para indicar que se realizó un registro con éxito? --> Rta: 201
+
+20. ¿Cuál es el nombre correcto del módulo para manejo de tokens? --> Rta: pyjwt
